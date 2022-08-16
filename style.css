@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow: none;
+  font-family: monospace;
+}
+body {
+  background-color: linear-gradient(bisque, DarkSalmon);
+}
+
+.getQuoteButton {
+  height: 70px;
+  width: 100%;
+  background-color: coral;
+  cursor: pointer;
+}
+.testFontSize {
+  font-size: 1rem;
+}
+.edit-content {
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  width: 80%;
+}
+.edit-content-quotes {
+  display: flex;
+  color: darkcyan;
+}
